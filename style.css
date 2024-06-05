@@ -24,7 +24,7 @@ body{
     font-weight: normal;
     /* overflow: hidden; */
     color: var(--black);
-
+    height:100vh;
 
 }
 
@@ -86,7 +86,7 @@ a,a:hover{
 
 /* home section */
 .head-container, .main-container{
-    height:700px;
+   
     padding-top: 110px;
     position: relative;
     overflow: hidden;
@@ -138,17 +138,11 @@ a,a:hover{
     padding-right: 5px;
 }
 
-.eclipse1, .eclipse2, .eclipse3{
+.eclipse1{
     position: absolute;
     top: 20px;
 }
-.eclipse2{
-    rotate: 30deg;
 
-}
-.eclipse3{
-    rotate: 60deg;
-}
 
 /* main part */
 
@@ -177,10 +171,9 @@ a,a:hover{
     font-weight: 600;
     text-transform: capitalize;
 }
-.feature-subtitle i{
-    color: var(--red);
+.feature-subtitle img{
     font-size: 18px;
-
+    padding-right: 5px;
 }
 .feature-text{
     font-size: 15px;
